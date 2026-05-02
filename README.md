@@ -83,20 +83,11 @@ python main.py
 
 Through this project, I practiced:
 
-* Working with **file handling in Python**
+* Working with **file handling and error handling in Python** 
 * Using **JSON for data persistence**
 * Applying **Object-Oriented Programming (OOP)**
 * Building a **menu-driven CLI application**
 * Managing files using the **os module**
-
----
-
-## Future Improvements
-
-* Add categories for expenses
-* Add date/time tracking
-* Generate reports or summaries
-* Build a GUI version
 
 ---
 
