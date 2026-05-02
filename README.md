@@ -78,6 +78,15 @@ python main.py
 ```
 
 ---
+## Example Usage
+
+Enter expense name: Food  
+Enter amount: 120  
+
+Food - ₹120  
+Total spending: ₹120
+
+---
 
 ## Learning Outcomes
 
