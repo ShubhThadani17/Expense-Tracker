@@ -8,7 +8,7 @@ class tracker:
         self.data=self.load_data()
 
     def load_data(self):
-        if os.path.exists(self.file):
+        if not os.path.exists(self.file):
             return []
         try:
             with open(self.file, "r") as file:
@@ -28,7 +28,7 @@ class tracker:
             self.data.append(expense)
             self.save_data()
             print("Expense added.")
-            
+
         except ValueError:
             print("amount invalid")
     
